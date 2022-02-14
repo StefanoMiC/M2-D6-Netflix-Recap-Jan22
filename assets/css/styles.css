@@ -1,0 +1,70 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 15px;
+}
+
+.carousel-control-next {
+  right: -15px;
+}
+
+.carousel-control-prev {
+  left: -15px;
+}
+
+body {
+  color: rgb(243, 243, 243);
+  background-color: #141414;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  /* line-height: 0; */
+}
+
+h4 {
+  text-transform: capitalize;
+}
+
+.navbar-nav,
+.kids {
+  font-weight: 600;
+}
+
+.kids {
+  color: rgb(255 255 255 /0.5);
+}
+
+.nav-dropdown .dropdown-toggle {
+  color: white;
+}
+
+.nav-dropdown .bi-person-circle {
+  font-size: 20px;
+}
+
+.genres-dropdown .btn {
+  border-radius: 2px;
+  color: white;
+  background-color: black;
+}
+
+.alignment-btns span {
+  display: inline-block;
+  background-color: black;
+  border: 1px solid #6c757d;
+  padding: 0.38rem 0.6rem;
+}
+
+/* @media (min-width: 576px) {
+  .alignment-btns {
+    position: absolute;
+    right: 15px;
+  }
+} */
+
+footer i.bi {
+  font-size: 1.4rem;
+}
